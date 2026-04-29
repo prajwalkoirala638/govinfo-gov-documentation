@@ -33,3 +33,6 @@ go.work.sum
 
 # JSON
 *.json
+
+# DS Store
+*.DS_Store
