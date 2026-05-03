@@ -9,7 +9,7 @@ name: Automated Data Pipeline & Auto Commit
 on:
   # Run automatically on a schedule (daily at midnight UTC)
   schedule:
-    - cron: "0 */2 * * *" # Executes every 2 hours starting at midnight UTC
+    - cron: "0 0 1 1 *" # Executes at 00:00, on day 1 of the month, only in January
   # Allow the workflow to be manually triggered from the GitHub UI
   workflow_dispatch:
 
